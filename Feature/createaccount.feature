@@ -1,11 +1,5 @@
 @create
 Feature: login user in webpage
-Background: 
- Given user is on the home page
-    When User clicks on sign in
-    And user enters <username>
-    And user enters <password>
-    Then User successfully signin
 
   Scenario: Create a new Professional Account with valid credentials
     Given user is on the home page
