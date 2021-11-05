@@ -1,7 +1,7 @@
-@create
 Feature: login user in webpage
 
-  Scenario: Create a new Professional Account with valid credentials
+@create
+    Scenario: Create a new Professional Account with valid credentials
     Given user is on the home page
     When user clicks on Create Account
     And user clicks on Create Professional Account
