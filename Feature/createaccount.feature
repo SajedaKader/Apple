@@ -30,7 +30,7 @@ Feature: login user in webpage
     And user clicks Get Started
     Then user is navigated to profile dashboard
 
- # @Signin
+  @Signin
   Scenario: User Successfully on webpage
     Given user is on the home page
     When User clicks on sign in
